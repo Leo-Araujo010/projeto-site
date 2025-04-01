@@ -111,6 +111,40 @@ body {
     padding: 24px;
 }
 
+.apresentacao_projects { 
+    padding: 8% 15%;
+    gap: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__projects {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__projects__titulo {
+    font-size: 2.25rem;
+    text-align: justify;
+    hyphens: auto;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__projects__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+}
+
+.pdf-embed {
+    width: 60%;    
+    height: 800px;
+}
+
+
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;

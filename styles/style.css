@@ -111,7 +111,7 @@ body {
     padding: 24px;
 }
 
-.apresentacao_projects { 
+.apresentacao__projects { 
     padding: 8% 15%;
     gap: 82px;
     display: flex;
@@ -160,6 +160,15 @@ body {
     }
     
     .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__projects {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo__projects {
         width: auto;
     }
 }
